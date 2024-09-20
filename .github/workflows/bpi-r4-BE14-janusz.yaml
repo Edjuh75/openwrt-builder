@@ -69,8 +69,6 @@ jobs:
           echo "CONFIG_PACKAGE_kmod-sched-core=y" >> .config
           echo "CONFIG_PACKAGE_kmod-nvme=y" >> .config
           echo "CONFIG_PACKAGE_libnvme=y" >> .config
-          echo "CONFIG_PACKAGE_kmod-mt7996-firmware=y" >> .config
-          echo "CONFIG_PACKAGE_kmod-mt7996e=y" >> .config
           echo "CONFIG_PACKAGE_luci-app-ksmbd=y" >> .config
           echo "CONFIG_PACKAGE_luci-app-upnp=y" >> .config
  
